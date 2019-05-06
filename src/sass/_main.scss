@@ -12,7 +12,11 @@ $baseFontSize: 16px;
 }
 
 body {
-  counter-reset: number;
+  counter-reset: number newCount;
+}
+
+ul {
+  list-style: none;
 }
 
 .container--width {

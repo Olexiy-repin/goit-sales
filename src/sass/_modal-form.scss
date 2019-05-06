@@ -21,10 +21,10 @@
 .myModal__input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
 .myModal__input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
 
-::-webkit-input-placeholder {font-family: HelveticaR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}
-::-moz-placeholder          {font-family: HelveticaR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}/* Firefox 19+ */
-:-moz-placeholder           {font-family: HelveticaR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}/* Firefox 18- */
-:-ms-input-placeholder      {font-family: HelveticaR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}
+::-webkit-input-placeholder {font-family: AcromR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}
+::-moz-placeholder          {font-family: AcromR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}/* Firefox 19+ */
+:-moz-placeholder           {font-family: AcromR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}/* Firefox 18- */
+:-ms-input-placeholder      {font-family: AcromR; font-size: 1rem; color:#b6c4ca; letter-spacing: .6px;}
 
 #myModal {
   border-radius: 0;
@@ -37,7 +37,7 @@
 }
 
 .modal-form__title {
-  font-family: OswaldB;
+  font-family: AcromB;
   font-size: pxToRem(30px);
   text-align: center;
   text-transform: uppercase;
@@ -62,7 +62,7 @@
 }
 
 .myModal__input {
-  font-family: HelveticaR;
+  font-family: AcromR;
   font-size: 1rem;
   display: block;
   width: 100%;
@@ -84,10 +84,10 @@
   border: none;
   outline: none;
   background-color: transparent;
-  font-family: HelveticaB;
+  font-family: AcromB;
   font-size: 1rem;
   color: #fff;
-  background: linear-gradient(to right, #99a6f5, #ba54e9);
+  background: #e16b1d;
   width: 14.8rem;
   border-radius: 28px;
   text-align: center;
