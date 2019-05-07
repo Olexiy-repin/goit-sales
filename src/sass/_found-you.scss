@@ -111,10 +111,13 @@
         margin-bottom: 0;
       }
     }
+    .container--width {
+      padding-left: 3.9rem;
+    }
   }
 
   .found-you__title {
-    width: 13.2rem;
+    width: auto;
     span {
       display: block;
       font-size: pxToRem(46px);

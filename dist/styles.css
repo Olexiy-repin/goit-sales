@@ -1088,10 +1088,9 @@ img.mfp-img {
 	color: #fff;
 	background: #e16b1d;
 	width: 14.8rem;
-	border-radius: 28px;
 	text-align: center;
 	cursor: pointer;
-	padding: 1.3rem 0;
+	padding: 1rem 0;
 }
 
 @media (min-width: 768px) {
@@ -1333,8 +1332,12 @@ img.mfp-img {
 	padding-bottom: 7.4rem;
 }
 
-.three-components__card-container {
+.three-components .container--width {
 	padding-left: 3.9rem;
+}
+
+.three-components__card-container {
+	padding-left: 0;
 }
 
 .three-components__card {
@@ -1352,8 +1355,12 @@ img.mfp-img {
 	margin-bottom: 0;
 }
 
+.found-you .container--width {
+	padding-left: 3.9rem;
+}
+
 .found-you__title {
-	width: 13.2rem;
+	width: auto;
 }
 
 .found-you__title span {

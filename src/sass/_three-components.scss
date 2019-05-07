@@ -86,10 +86,13 @@
   .three-components {
     padding-top: 7.2rem;
     padding-bottom: 7.4rem;
+    .container--width {
+      padding-left: 3.9rem;
+    }
   }
 
   .three-components__card-container {
-    padding-left: 3.9rem;
+    padding-left: 0;
   }
 
   .three-components__card {
