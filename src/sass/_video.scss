@@ -1,9 +1,6 @@
 .video {
   padding-top: 4.7rem;
   padding-bottom: 4.2rem;
-  background-image: url("img/three-component/lines.png");
-  background-position: top;
-  background-repeat: no-repeat;
 }
 
 .video__container {
@@ -21,9 +18,11 @@
   cursor: pointer;
   &:hover {
     &::before {
+      transition: all .5s linear;
       transform: translate(-50%, -50%) scale(1.1);
     }
     &::after {
+      transition: all .5s linear;
       transform: translate(-50%, -50%) scale(1.1);
     }
   }

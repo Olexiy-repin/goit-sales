@@ -494,10 +494,6 @@ img.mfp-img {
 .three-components {
 	padding-top: 4.1rem;
 	padding-bottom: 3rem;
-	background-image: url("img/three-component/lines.png");
-	background-position: top;
-	background-size: auto;
-	background-repeat: no-repeat;
 }
 
 .three-components__card-container {
@@ -617,9 +613,6 @@ img.mfp-img {
 .video {
 	padding-top: 4.7rem;
 	padding-bottom: 4.2rem;
-	background-image: url("img/three-component/lines.png");
-	background-position: top;
-	background-repeat: no-repeat;
 }
 
 .video__container {
@@ -642,11 +635,15 @@ img.mfp-img {
 }
 
 .video__picture:hover::before {
+	-webkit-transition: all .5s linear;
+	transition: all .5s linear;
 	-webkit-transform: translate(-50%, -50%) scale(1.1);
 	transform: translate(-50%, -50%) scale(1.1);
 }
 
 .video__picture:hover::after {
+	-webkit-transition: all .5s linear;
+	transition: all .5s linear;
 	-webkit-transform: translate(-50%, -50%) scale(1.1);
 	transform: translate(-50%, -50%) scale(1.1);
 }
@@ -736,10 +733,6 @@ img.mfp-img {
 .mission {
 	padding-top: 4.5rem;
 	padding-bottom: 3rem;
-	background-image: url("img/three-component/lines.png");
-	background-position: top;
-	background-size: auto;
-	background-repeat: repeat-y;
 }
 
 .mission__card-container {
